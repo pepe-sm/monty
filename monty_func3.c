@@ -18,6 +18,7 @@ void (*op_tofunc(char *op))(stack_t **stack, unsigned int line_number)
 		{"swap", m_swap},
 		{"add", m_add},
 		{"nop", nop},
+		{"sub", m_sub},
 		{NULL, NULL}
 		};
 
